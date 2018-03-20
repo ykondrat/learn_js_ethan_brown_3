@@ -56,9 +56,9 @@ const ORANGE = Symbol('Color of sunset');
 console.log(RED, ORANGE);
 
 // Null undefined
-console.log(undefined * null);
-console.log(undefined + null);
-console.log(undefined + undefined);
-console.log(undefined * undefined);
-console.log(null + null);
-console.log(null * null);
+console.log(undefined * null); // Nan
+console.log(undefined + null); // Nan
+console.log(undefined + undefined); // Nan
+console.log(undefined * undefined); // Nan
+console.log(null + null); // 0
+console.log(null * null); // 0
